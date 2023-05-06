@@ -70,7 +70,7 @@ inds = find_in_range(
 )
 ```
 
-...returns a vector of points with distances to `x` such that
+...returns a vector of indices of points with distances to `x` such that
 
 ```
 distance(X[:, i], x) < R[i] + r
